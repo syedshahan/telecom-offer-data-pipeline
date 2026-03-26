@@ -8,15 +8,7 @@ Deduplicate and clean data for downstream analysis.
 Showcase data engineering best practices like batch processing, error handling, and logging.
 
 **Architecture**
-Input CSV (numbers) 
-      ↓
-Automation Layer (Appium / Mobile UI)
-      ↓
-Offer Extraction Engine
-      ↓
-Deduplication & Structuring
-      ↓
-Output CSV (structured offers)
+<img width="1536" height="1024" alt="Architecture" src="https://github.com/user-attachments/assets/608feffb-48ef-407f-87ac-149ebd7cb586" />
 
 **Key Components**
 Batch Processing: Restart session after N numbers to ensure stability.
